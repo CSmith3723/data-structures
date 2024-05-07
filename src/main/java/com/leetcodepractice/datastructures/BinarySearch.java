@@ -3,11 +3,19 @@ package com.leetcodepractice.datastructures;
 public class BinarySearch {
 
     public static void main(String[] args) {
-        int array[] = new int[100];
+        int[] array = new int[10000000];
         int target = 55;
 
         for (int i = 0; i < array.length; i++) {
             array[i] = i;
+        }
+
+        int index = binarySearchDemo(array, target);
+
+        if (index == -1) {
+            System.out.println("Target not found.");
+        } else {
+            System.out.println("Target value found at index: " + index);
         }
 
     }
