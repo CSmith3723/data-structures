@@ -1,4 +1,4 @@
-package com.leetcodepractice.datastructures;
+package com.cs.datastructures;
 
 import java.util.LinkedList;
 import java.util.Queue;
